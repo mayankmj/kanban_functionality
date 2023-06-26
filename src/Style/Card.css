@@ -1,0 +1,46 @@
+.main-div{
+    margin-top: 40px;
+    display: flex;
+    gap:30px
+}
+.swim-lane{
+    background: #F5F5F5;
+    border-radius: 16px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-height: 500px;
+}
+.main-col-1-header{
+    display: flex;
+    gap: 8px;
+}
+.main-col-1-header-title{
+    font-weight: 600;
+}
+.main-col-1-header-button{
+    border-radius: 50%;
+    background-color: #5030E5;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 6.5px;
+}
+.main-col-1-header-icon{
+    margin-left: auto;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.main-col-1-hz-ln{
+    margin-top: 10px;
+    border: 2px solid #5030E5;
+}
+
+.is-dragging {
+    scale: 1.05;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background: rgb(50, 50, 50);
+    color: white;
+  }

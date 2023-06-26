@@ -1,0 +1,8 @@
+.hero-row{
+    display: flex!important;
+    flex-direction: row;
+}
+.hero-heading{
+    /* max-width: 10px!important; */
+    margin: 200px;
+}
